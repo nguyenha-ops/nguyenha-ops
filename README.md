@@ -14,8 +14,6 @@ Compression usually gets reported as one number: in-distribution accuracy. I car
 |---|---|---|
 | **PRISM: sepsis at the edge** | Organ-dysfunction prediction in sepsis: 72 LightGBM models (6 organs × 12 horizons) built at the Broad Institute and externally validated across ICU datasets. Now exporting to ONNX so it can run offline on edge hardware, down to microcontrollers, with no cloud dependency at the bedside. | Python, LightGBM, ONNX |
 | **Taming the 262K-way output head** | Gemma 3 270M on a Cortex-M55 + Ethos-U85 MCU. The tied embedding / output head is ~168M of the model's ~270M params, so that is where the memory and latency budget goes. Optimizing the vocab projection for on-device decode. | Rust, PyTorch, ExecuTorch |
-<img width="480" height="480" alt="network_pruning" src="https://github.com/user-attachments/assets/d5b68abb-9571-4549-8cfd-21837dd27f91" />
-
 | **TinyCell** | Compression study for single-cell annotation models: does a model quantized to preserve in-distribution accuracy still hold up on another lab's data? Targets cheap hardware so small labs without a cluster can run it. *Writeup in progress.* | Python, PyTorch |
 
 ### Interests
