@@ -1,6 +1,7 @@
 <p align="center">
   <img width="100%" alt="Synthetic bedside vitals streaming into PRISM, 72 LightGBM sepsis organ-dysfunction models running offline on a microcontroller"  src="https://github.com/user-attachments/assets/7f559ac9-fffc-4b8a-994b-8111e472fbc6" />
 </p>
+<img width="480" height="480" alt="network_pruning" src="https://github.com/user-attachments/assets/d5b68abb-9571-4549-8cfd-21837dd27f91" />
 
 
 ## Harry Nguyen
